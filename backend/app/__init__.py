@@ -1,0 +1,1 @@
+# TerraMind AI — app package
