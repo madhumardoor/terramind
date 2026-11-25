@@ -1,0 +1,18 @@
+{
+  "dataset_id": "osm_amenities_bengaluru_20261125",
+  "dataset_name": "OpenStreetMap Amenities — Bengaluru",
+  "source_url": "https://overpass-api.de/api/interpreter",
+  "retrieval_timestamp": "2026-11-25T10:35:38.344130Z",
+  "geographic_coverage": "Bengaluru, Karnataka, India",
+  "industry": "urban",
+  "data_format": "json",
+  "licence": "ODbL 1.0 — © OpenStreetMap contributors",
+  "dataset_version": null,
+  "processing_status": "success",
+  "validation_status": "success",
+  "file_path": "..\\data\\raw\\osm\\osm_amenities_bengaluru_20261125.json",
+  "record_count": 6253,
+  "file_size_bytes": 2527323,
+  "error_message": null,
+  "notes": "Bounding box: {'south': 12.834, 'west': 77.46, 'north': 13.139, 'east': 77.784}"
+}
