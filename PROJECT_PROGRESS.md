@@ -62,6 +62,14 @@ requests, httpx, pandas, geopandas, shapely, pytest, pytest-asyncio
 ## Known Issues
 - None
 
-## Next Step
-Phase 2, Step 1: Build the OpenStreetMap ingestion connector.
-Target: Fetch real road and amenity data for Bengaluru from the Overpass API.
+### Phase 2 — Data Ingestion (In Progress)
+- [x] BaseConnector abstract class (backend/app/engines/ingestion/base.py)
+- [x] IngestionRecord metadata model (backend/app/models/ingestion.py)
+- [x] OSM connector — fetches roads and amenities via Overpass API
+- [x] OSM connector — 12 passing automated tests
+- [x] NASA POWER connector — fetches 7 daily weather parameters
+- [x] NASA POWER connector — real data verified: 30 days for Bengaluru
+- [x] NASA POWER connector — passing automated tests
+- [ ] Expose ingestion connectors via FastAPI endpoints
+- [ ] Data catalogue API endpoint
+- [ ] Phase 2 complete
