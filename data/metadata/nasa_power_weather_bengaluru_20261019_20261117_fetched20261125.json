@@ -1,0 +1,18 @@
+{
+  "dataset_id": "nasa_power_weather_bengaluru_20261019_20261117_fetched20261125",
+  "dataset_name": "NASA POWER Daily Weather — Bengaluru (2026-10-19 to 2026-11-17)",
+  "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point",
+  "retrieval_timestamp": "2026-11-25T10:47:38.961888Z",
+  "geographic_coverage": "Bengaluru (12.9716N, 77.5946E)",
+  "industry": "agriculture",
+  "data_format": "json",
+  "licence": "NASA Open Data — Public Domain",
+  "dataset_version": null,
+  "processing_status": "success",
+  "validation_status": "success",
+  "file_path": "..\\data\\raw\\nasa_power\\nasa_power_weather_bengaluru_20261019_20261117_fetched20261125.json",
+  "record_count": 30,
+  "file_size_bytes": 7357,
+  "error_message": null,
+  "notes": "Parameters: T2M, T2M_MAX, T2M_MIN, PRECTOTCORR, RH2M, WS2M, ALLSKY_SFC_SW_DWN. Community: AG (Agroclimatology)."
+}
