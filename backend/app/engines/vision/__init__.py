@@ -1,0 +1,1 @@
+# TerraMind AI — vision engine package
