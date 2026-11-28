@@ -51,6 +51,14 @@ class Settings(BaseSettings):
         default="https://overpass-api.de/api/interpreter"
     )
 
+    # LLM — Groq (optional)
+    groq_api_key: str = Field(default="")
+    groq_model: str = Field(default="llama3-8b-8192")
+
+    # LLM — Google Gemini (primary)
+    gemini_api_key: str = Field(default="")
+    gemini_model: str = Field(default="gemini-1.5-flash")
+
     # Logging
     log_level: str = Field(default="INFO")
     log_dir: Path = Field(default=BACKEND_DIR.parent / "logs")

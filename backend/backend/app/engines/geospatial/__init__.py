@@ -1,1 +1,0 @@
-# TerraMind AI — geospatial engine package
