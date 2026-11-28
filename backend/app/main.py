@@ -20,6 +20,7 @@ from app.api.health import router as health_router
 from app.api.ingestion import router as ingestion_router
 from app.api.geospatial import router as geospatial_router
 from app.api.vision import router as vision_router
+from app.api.satellite import router as satellite_router
 
 # Initialise logging before anything else runs
 setup_logging(
@@ -100,6 +101,7 @@ app.include_router(health_router)
 app.include_router(ingestion_router)
 app.include_router(geospatial_router)
 app.include_router(vision_router)
+app.include_router(satellite_router)
 
 # Root endpoint
 @app.get("/", tags=["Root"])
